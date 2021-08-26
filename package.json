@@ -45,6 +45,6 @@
         "build/**/*"
     ],
     "bin": {
-        "seide2sideex-cli": "./index.bundle.js"
+        "asd": "./index.bundle.js"
     }
 }
