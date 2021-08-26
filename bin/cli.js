@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { program } = require('commander');
-const { mainFunc } = require('../build/main');
+const { mainFunc } = require('../index.bundle');
 
 program
   .description('An cli to read path')

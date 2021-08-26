@@ -1,5 +1,5 @@
 {
-    "name": "seide2sideex",
+    "name": "qwewfnakvnaevbcsdn",
     "version": "1.0.0",
     "description": "",
     "main": "cli.js",
@@ -8,7 +8,6 @@
         "doconvert": "node bin/cli.js -p",
         "lint": "eslint 'src/**/*.{js,ts}' --fix",
         "start": "npm run build && npm run doconvert",
-        "prepare": "npm run build",
         "test": "jest",
         "coverage": "jest --coverage",
         "webpack": "webpack --mode production"
