@@ -1,6 +1,6 @@
 {
-    "name": "qwewfnakvnaevbcsdn",
-    "version": "1.0.4",
+    "name": "@sideex/seide2sideex",
+    "version": "1.0.0",
     "description": "",
     "main": "cli.js",
     "scripts": {
@@ -8,12 +8,13 @@
         "doconvert": "node bin/cli.js -p",
         "lint": "eslint 'src/**/*.{js,ts}' --fix",
         "start": "npm run build && npm run doconvert",
+        "prepare": "npm run build",
         "test": "jest",
         "coverage": "jest --coverage",
         "webpack": "webpack --mode production"
     },
     "author": "",
-    "license": "ISC",
+    "license": "Apache-2.0",
     "dependencies": {
         "@types/fs-extra": "^9.0.11",
         "@types/node": "^16.3.0",
@@ -45,6 +46,11 @@
         "build/**/*"
     ],
     "bin": {
-        "asd": "./index.bundle.js"
-    }
+        "seide2sideex-cli": "./dist/bin.js"
+    },
+    "keywords": [
+        "Sideex",
+        "SeleniumIDE",
+        "cli"
+    ]
 }
