@@ -47,7 +47,7 @@
         "build/**/*"
     ],
     "bin": {
-        "npmtest": "./dist/bin.js"
+        "npmtest": "./dist/index.bundle.js"
     },
     "keywords": [
         "Sideex",
