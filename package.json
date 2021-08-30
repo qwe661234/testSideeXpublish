@@ -4,7 +4,7 @@
     "description": "",
     "main": "cli.js",
     "scripts": {
-        "build": "tsc",
+        "build": "",
         "doconvert": "node bin/cli.js -p",
         "lint": "eslint 'src/**/*.{js,ts}' --fix",
         "start": "npm run build && npm run doconvert",
@@ -37,6 +37,7 @@
         "jest": "^27.0.6",
         "path": "^0.12.7",
         "prettier": "^2.3.2",
+        "qwewfnakvnaevbcsdn": "^1.0.5",
         "ts-jest": "^27.0.4",
         "ts-loader": "^9.2.5",
         "webpack": "^5.51.1",
@@ -46,7 +47,7 @@
         "build/**/*"
     ],
     "bin": {
-        "seide2sideex-cli": "./dist/bin.js"
+        "npmtest": "./dist/bin.js"
     },
     "keywords": [
         "Sideex",
